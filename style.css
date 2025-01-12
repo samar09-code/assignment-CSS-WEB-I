@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.text-info{
+    background-color: #8a2be2;
+    padding: 20px;  
+    color:  whitesmoke; 
+    font-family:courier ; 
+    text-align: right;
+
+}
+
+.logo img{
+    max-height: 70px;
+}
+
+.text-title-i{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 26px;
+    text-transform: none;
+    color: #2c2c2c;
+    margin-bottom: 20px;
+}
+.principal-image{
+
+    width: 350px;
+    float: left ;
+    border-radius: 18px;
+    margin: 0px 20px 0px 100px;
+}
+
+.chairman-image{
+
+    width: 250px;
+    float: right ;
+    margin: 0px 100px 0px 20px;
+}
+
+.text-box-i{
+    font-size: 20px;
+    text-transform: none;
+    margin: 10px ;
+    padding-bottom: 20px;
+}
+
+.text-box-ii{
+    font-size: 20px;
+    text-transform: none;
+    margin: 0px 100px 0px 20px ;
+    padding-bottom: 20px;
+    text-align: left;
+
+}
+
+.text-box-iii{
+    font-size: 20px;
+    text-transform: none;
+    margin: 0px 100px 0px 100px ;
+    padding-bottom: 70px;
+    text-align: left;
+
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.social-icons a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+
+    
+}
+
+.social-icons a i{
+    font-size: 2em;
+    color: #333;
+
+}
+
+.social-icons a:hover{
+    background-color:#333 ;
+    transition: 0.2s;
+
+}
+.social-icons a i:hover{
+    color: #f5f5f5;
+    transition: 0.02s;
+}
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100% ;
+    margin-top: 5px;
+    padding: 0px 10px;
+    border-bottom: 1px solid #808080;
+    
+}
+
+header ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 30px;
+
+}
+
+header ul li :last-child{
+    margin-right : 0;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #555;
+    padding: 9px 0px;
+    display: inline-block;
+    transition: all ease  0.3s;
+    font-size: 23px;
+}
+
+header ul li a:hover{
+ color: #8a2be2;
+ font-size: 24px;
+}
+
+header ul .sub-list{
+    position: absolute;
+    width: 216px;
+    background-color: #f5f5f5;
+    box-shadow: 0 20px 45px #00000020;
+    margin-top: -50px;
+    opacity: 0;
+    z-index: -999; 
+    transition: all ease 0.3s;
+}
+
+header ul li:hover .sub-list{
+    z-index: 99;
+    opacity: 1;
+    margin-top: 0;
+}
+
+.faculty{
+    display: none;
+    flex-direction: column;
+    
+    position: absolute;
+    margin-top: -44px;
+    margin-left: 140px;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+.sub-list:hover i {
+    margin-right:60px ;
+    transform: rotate(-90deg);
+
+}
+
+.sub-list li:nth-child(4):hover
+.faculty{
+
+    display: flex;
+}
+
+
+.text-title-ii{
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 55px;
+    text-transform: none;
+    color: 	#f5f5f5;
+    background-color:#986302;
+    padding: 10px 50px;
+    margin: 0px 0px 80px 0px;
+}
+
+.text-box-iv{
+    margin: 10px 100px 50px 60px;
+    
+
+}
+
+.location{
+    margin-left: 60px;
+}
+
+.active{
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.school-image-i{
+    display: inline;
+    width: 672px;
+    height: 500;
+    top: 0;
+    left: 0;
+}
+
+.school-image-ii{
+    
+    top: 0;
+    left: 0;
+    width: 672px;
+    height: 150;
+    
+ 
+}
+
+
+.text-box-v{
+    margin: 10px;
+    font-size: 20px;
+    text-transform: none;
+    padding: 5px;
+    
+}
+/* tablet view */
+@media screen and (min-width:481px) and (max-width:768px) {
+    body {
+        width: 100%;
+        
+    }
+    
+}
+/* laptop view */
+@media only screen and (min-width:769px) {
+    body{
+      width: 100%;
+    }
+  }
+/* mobile view */
+  @media only screen and  (max-width: 480px){
+    body{
+      width: 100%;
+    }
+  }
+
+
+
